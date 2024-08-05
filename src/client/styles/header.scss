@@ -1,0 +1,24 @@
+header {
+  $bg-dark: #000000;
+  $gray-color: #ffd700;
+  $font-color: #ffd700;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 40px;
+  background-color: $bg-dark;
+  border-bottom: 1px solid $gray-color;
+
+  h1 {
+    text-align: center;
+    font-size: 1.5em;
+    font-family: "Courier New", Courier, monospace;
+    font-weight: bold;
+
+    color: $font-color;
+    display: flex;
+    align-items: center;
+    justify-self: center;
+  }
+}

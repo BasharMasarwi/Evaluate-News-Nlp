@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <title>News NLP</title>
+  </head>
+
+  <body>
+    <header>
+      <h1>Evaluate News Nlp</h1>
+    </header>
+    <main>
+      <section>
+        <form
+          id="url-form"
+          method="post"
+          onsubmit="return Client.handleSubmit(event)"
+        >
+          <label for="name">Enter a URL to analyze :</label>
+          <input
+            id="name"
+            type="text"
+            name="url"
+            placeholder="Your's URL"
+            required
+          />
+          <div class="feedback-wrapper"></div>
+          <button id="submit-button" type="submit">Click to Analyze</button>
+          <div class="loader">Loading...</div>
+          <div class="error-wrapper"></div>
+        </form>
+      </section>
+
+      <section>
+        <p class="result"><strong>Analysis Results:</strong></p>
+        <div id="results"></div>
+      </section>
+    </main>
+
+    <footer>
+      <p>Made By Bashar Masarwi</p>
+    </footer>
+  </body>
+</html>

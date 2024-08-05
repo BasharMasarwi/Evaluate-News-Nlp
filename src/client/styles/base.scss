@@ -1,0 +1,29 @@
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: #000000;
+  color: #ccc;
+
+  main {
+    flex: 2;
+    margin: 0 2em;
+
+    section {
+      max-width: 600px;
+      margin: 50px auto;
+
+      .result {
+        font-size: 1.2em;
+        border-bottom: 1px solid;
+        margin-bottom: 1em;
+      }
+
+      #results {
+        .result-part {
+          margin-bottom: 0.8em;
+        }
+      }
+    }
+  }
+}
